@@ -1,0 +1,152 @@
+.jobDetailsContainer {
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.jobDetailsCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+}
+
+.logoCard {
+  display: flex;
+  align-items: center;
+}
+
+.titleAndRating {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  line-height: 80%;
+  margin-bottom: -6px;
+}
+
+.locationAndSalary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.locationAndEmployementType {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+}
+
+.descriptionAndVisit {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -20px;
+}
+
+.visit {
+  display: flex;
+  align-items: center;
+}
+
+.visitHeading {
+  margin-right: 5px;
+  text-decoration: none;
+}
+:link {
+  text-decoration: none;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skillName {
+  margin-left: 10px;
+}
+
+.lifeAtCompany {
+  display: flex;
+  margin-top: 20px;
+}
+
+.lifeAtCompanyDescription {
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.similarJobsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.similarJob {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: justify;
+  color: white;
+  height: 100%;
+}
+
+.similarJobLogo {
+  display: flex;
+  align-items: center;
+}
+
+.similarJobTitle {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -8px;
+}
+
+.similarJobTitleAndRating {
+  margin-left: 10px;
+}
+
+.similarJobLink {
+  text-decoration: none;
+}
+
+.similarJobsFailure {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+}

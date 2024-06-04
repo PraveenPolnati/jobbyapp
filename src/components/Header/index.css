@@ -1,0 +1,37 @@
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20vw;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #272727;
+}
+
+.btnLogout {
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #6366f1;
+  border: 0px;
+  align-self: center;
+  color: white;
+  cursor: pointer;
+}
+
+.logoBtn {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
